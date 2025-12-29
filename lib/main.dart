@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:odoo_task/views/partners/partners_view.dart';
+import 'package:odoo_task/views/invoices/invoices_view.dart';
+// import 'package:odoo_task/views/partners/partners_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: const PartnersView(),
+      home: const InvoicesView(),
     );
   }
 }
